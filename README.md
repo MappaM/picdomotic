@@ -1,7 +1,7 @@
 PIC Domotic station
 ==========
 
-PIC program for a domotic station controlling temperature sensors, relay and connected to a PC using UART.
+PIC program for a domotic station controlling two temperature sensors, multiple relay, a USB port (for power only) and connected to a PC using UART to receive its instructions.
 
 It uses a PIC18F23K20 but should work on most of them. The PC sends simple commandes through /dev/ttyUSB0 like "A 32" to enable the device 32, or "E 32" to disable it. "T" to get temperature, ... See the source code in main.c.
 
